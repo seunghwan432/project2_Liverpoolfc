@@ -1,12 +1,13 @@
 @media screen and (max-width:1850px){
     .sub_news li{width:33.33333333%;}
-    #footBox{background-color:#123;}
+   
     
     
 }
 
 @media screen and (max-width:1350px){
     #contentBox{width:calc(100% - 200px);}
+    #footBox .foot_right{width:calc(100% - 200px);}
     
     .main_news li:nth-child(1){float:none; width:100%;}
     .main_news li:nth-child(2){float:none; width:90%;}

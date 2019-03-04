@@ -10,3 +10,4 @@ h2{color:#dd1111; font-size:30px; width:auto; float:left;}
 .summary{color:#000; font-size:20px; font-weight:bold;}
 
 .summary:before{display: block; clear:both; content:""; width:200px; height:10px; border-bottom:1px solid #dd1111;}
+.foot_info{color:#fff; }

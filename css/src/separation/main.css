@@ -1,6 +1,6 @@
 
 body{height:950px; background-image:url("../../../img/background/bg1.jpg"); background-repeat:no-repeat; background-size:cover; 
-    background-attachment: fixed; font-size:12px;}
+    background-attachment: fixed; font-size:12px; overflow:scroll; overflow-x:hidden;}
 #wrap{position: relative; margin:auto;  height:950px;  }
 
 #headBox{float:left; padding-top:1rem; box-sizing:border-box; width:15%; height:790px; min-width:200px;  background-image:linear-gradient(90deg,rgb(100, 12, 12) 0.1% , #DD1111);}
@@ -49,6 +49,7 @@ body{height:950px; background-image:url("../../../img/background/bg1.jpg"); back
 
 
 
-#footBox{float:left; width:100%; height:160px; background-color:#3F1052;}
+#footBox{float:left; width:100%;  height:160px; background-color:#38003C; }
+
 
 
