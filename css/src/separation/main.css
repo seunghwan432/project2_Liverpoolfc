@@ -1,8 +1,9 @@
 
-body{height:950px; background-image:url("../../../img/background/bg1.jpg"); background-repeat:no-repeat; background-size:cover; background-attachment: fixed; font-size:12px;}
-#wrap{position: relative; margin:auto; width:100%; height:950px; max-width:1600px; }
+body{height:950px; background-image:url("../../../img/background/bg1.jpg"); background-repeat:no-repeat; background-size:cover; 
+    background-attachment: fixed; font-size:12px;}
+#wrap{position: relative; margin:auto;  height:950px;  }
 
-#headBox{float:left; padding-top:1rem; box-sizing:border-box; width:15%; height:750px;  background-image:linear-gradient(90deg,rgb(100, 12, 12) 0.1% , #DD1111);}
+#headBox{float:left; padding-top:1rem; box-sizing:border-box; width:15%; height:790px; min-width:200px;  background-image:linear-gradient(90deg,rgb(100, 12, 12) 0.1% , #DD1111);}
 
     #main_emblem{margin:auto;  width:120px; height:162px; background-image:url("../../../img/emblem/liverpool_emblem.png"); 
         background-repeat:no-repeat; background-size:cover;} 
@@ -22,7 +23,7 @@ body{height:950px; background-image:url("../../../img/background/bg1.jpg"); back
                 
 
    
-#contentBox{float:left; position: relative;  width:85%; height:750px;  background-color:rgba(255, 255, 255, 0.7);}
+#contentBox{float:left; position: relative;  height:790px; max-width:85%;  background-color:rgba(255, 255, 255, 0.7);}
 
 
     #article{ }
@@ -48,6 +49,6 @@ body{height:950px; background-image:url("../../../img/background/bg1.jpg"); back
 
 
 
-#footBox{float:left; width:100%; height:200px; background-color:#3F1052;}
+#footBox{float:left; width:100%; height:160px; background-color:#3F1052;}
 
 
