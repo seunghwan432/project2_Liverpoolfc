@@ -12,20 +12,30 @@
 .m_story{width:100%; height:auto;   display:none;}
 .m_story .back_btn{position:absolute; top:93px; left:0; width:48px; height:48px; background-color:#fff; text-align:center; cursor: pointer;}
 
-.story_content{ padding:0 3rem 0 3rem; box-sizing:border-box; width:100%; height:100%;}
-.story_content .story_left_top{position:absolute; top:93px; left:47px; width:585px;}
-.story_content .story_right_bottom{float:right; width:50%;}
+.story_content{  box-sizing:border-box; width:100%; height:100%;}
+
+.story_content .story_left_top{position:absolute; top:141px; left:47px; width:560px;}
+.story_content .more_news{float:left; width:100%; height:250px; background-color:#000;}
+
+.story_content .story_right_bottom{position: relative; float:right; padding:1.5rem; box-sizing:border-box; width:50%; background-color:#fff; font-size:15px;}
+
+
 .story_img img{width:100%; height:auto;}
 
-.story_content .story_img{width:100%;}
-.story_content .story_text{font-size:20px;}
+.story_content .story_img{width:100%; height:300px;}
+.story_content .story_text{width:100%; font-size:20px;}
 
-.story_text{padding-left:1rem; box-sizing:border-box; font-size:15px;}
-.reporter_info .r_name{float:left; cursor: default;}
-.reporter_info>li{float:right; margin-right:20px; cursor: pointer;}
+.story_content .video_title{position: relative; padding:0 1rem 0 1rem; box-sizing:border-box; width:560px; height:50px; background-image:linear-gradient(90deg,rgb(255, 255, 255)84%,#dd1111 85%);
+font-size:20px; color:#000; line-height:50px;}
+
+.story_content .video_title i{position: absolute; right:15px; top:50%; margin-top:-20px;}
 
 
-.reporter_info{padding:0 1rem 0 1rem; box-sizing:border-box;  float:left; font-size:20px; width:100%; height:48px; color:#fff; 
+.reporter_info .r_name{float:left; cursor: default; }
+.reporter_info>li{float:right; margin-left:20px; cursor: pointer;}
+
+
+.reporter_info{position: absolute; top:-40px; left:0; padding:0 1rem 0 1rem; box-sizing:border-box; margin-top:-3px; float:left; font-size:20px; width:100%; height:48px; color:#fff; 
     background-color:#dd1111; line-height:48px;}
     
 

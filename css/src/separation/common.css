@@ -1,13 +1,16 @@
 /* #headBox:before{position: absolute; top:0; z-index:-1;  display:block; content:" ";  width:50vw; height:750px; margin-left:-50vw; background-color:rgb(121, 180, 238); }
 #contentBox:before{position: absolute; z-index:-1;  display:block; content:" "; width:50vw; height:750px; margin-left:50vw; background-color:rgb(216, 114, 207); }
 #footBox:before{position: absolute; z-index:-1;  display:block; content:" "; width:100vw; left:50%; margin-left:-50vw;  height:200px;  background-color:rgb(102, 206, 53);} */
-
+br{line-height:250%;}
 
 h2{color:#dd1111; font-size:30px; width:auto; float:left;}
 .active{color:#dd1111; font-size:16px;}
 .slash{float:left; padding:0.5rem; padding-right:0; line-height:32px; font-weight:bold;}
 .post{color:#dd1111; font-size:25px; font-weight:bold;}
+.post_story{clor:#dd1111; font-size:25px ;font-weight:bold;}
 .summary{color:#000; font-size:20px; font-weight:bold;}
+.summary_story{color:#000; font-size:20px; font-weight:bold;}
 
 .summary:before{display: block; clear:both; content:""; width:200px; height:10px; border-bottom:1px solid #dd1111;}
 .foot_info{color:#fff; }
+.block{color:#000; font-weight:bold; content:" ";}
