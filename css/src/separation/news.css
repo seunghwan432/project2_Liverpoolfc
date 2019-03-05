@@ -10,16 +10,16 @@
 .news_kind>li:nth-child(3){display:none;}
 
 .m_story{width:100%; height:auto;   display:none;}
-.m_story .back_btn{width:48px; height:48px; background-color:#fff; text-align:center; cursor: pointer;}
+.m_story .back_btn{position:absolute; top:93px; left:0; width:48px; height:48px; background-color:#fff; text-align:center; cursor: pointer;}
 
 .story_content{ padding:0 3rem 0 3rem; box-sizing:border-box; width:100%; height:100%;}
-.story_content .story_left_top{float:left; width:50%;}
+.story_content .story_left_top{position:absolute; top:93px; left:47px; width:585px;}
 .story_content .story_right_bottom{float:right; width:50%;}
-
+.story_img img{width:100%; height:auto;}
 
 .story_content .story_img{width:100%;}
-.story_content .story_text{}
-.story_img img{width:100%; height:auto;}
+.story_content .story_text{font-size:20px;}
+
 .story_text{padding-left:1rem; box-sizing:border-box; font-size:15px;}
 .reporter_info .r_name{float:left; cursor: default;}
 .reporter_info>li{float:right; margin-right:20px; cursor: pointer;}
