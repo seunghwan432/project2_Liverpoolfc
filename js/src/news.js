@@ -41,7 +41,7 @@
         var num=main_news_ancestor.index();
 
 
-        // news_kind.css({display:'none'});
+        news_kind.eq(num).css({display:'none'});
         story.eq(num).css({display:'block'});
 
 
@@ -53,9 +53,15 @@
 
     $('.back_btn').on('click',function(e){
         e.preventDefault();
+        var main_news_parent=$(this).parent();
+        var main_news_ancestor=main_news_parent.parent();
+        var num=main_news_ancestor.index();
+
         story.eq(0).css({display:'none'});
         story.eq(1).css({display:'none'});
         story.eq(2).css({display:'none'});
+        news_kind.eq(num).css({display:'block'});
+
 
     });
 
