@@ -82,6 +82,50 @@ mql.addListener(function(e) {
     }
 })
 
+// 더보기 뉴스 슬라이드~
+var m_n_b_l =$('.more_news_btn_left')
+var m_n_b_r=$('.more_news_btn_right')
+var m_n_u=$('.more_news_ul');
+var m_n_l=$('.more_news_li');
+var more_news_length=m_n_l.length;
+var more_news_num=0;
+
+console.log(more_news_length);
+
+
+m_n_b_r.on('click',function(e){
+    e.preventDefault();
+    
+    m_n_b_l.css({display:'block'});
+    
+    more_news_num+=1;
+    console.log(more_news_num);
+    m_n_u.animate({marginLeft:more_news_num*-33.3333333+'%'})
+    if(more_news_num==more_news_length-3){
+        m_n_b_r.css({display:'none'});
+    }
+    
+
+
+});
+
+m_n_b_l.on('click',function(e){
+    e.preventDefault();
+    
+    more_news_num-=1;
+    console.log(more_news_num);
+    m_n_u.animate({marginLeft:more_news_num*-33.3333333+'%'})
+    if(more_news_num==0){
+        m_n_b_l.css({display:'none'});
+    }
+    if(more_news_num<more_news_length-3){
+        m_n_b_r.css({display:'block'});
+    }
+
+
+});
+
+
 
 
 
