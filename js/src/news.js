@@ -22,6 +22,10 @@
         $('.m_story').css({display:'none'});
 
         title.scrollTop(0);
+        more_news_num=0;
+        m_n_u.animate({marginLeft:more_news_num*-33.3333333+'%'})
+        m_n_b_l.css({display:'none'});
+        m_n_b_r.css({display:'block'});
     });
 
 
@@ -43,6 +47,8 @@
 
         news_kind.eq(num).css({display:'none'});
         story.eq(num).css({display:'block'});
+        more_news_num=0;
+        
 
 
     
@@ -61,6 +67,11 @@
         story.eq(1).css({display:'none'});
         story.eq(2).css({display:'none'});
         news_kind.eq(num).css({display:'block'});
+        more_news_num=0;
+        m_n_u.animate({marginLeft:more_news_num*-33.3333333+'%'})
+        m_n_b_l.css({display:'none'});
+        m_n_b_r.css({display:'block'});
+
 
 
     });
@@ -83,6 +94,9 @@ mql.addListener(function(e) {
 })
 
 // 더보기 뉴스 슬라이드~
+$('.news_media_story').css({display:'none'});
+
+
 var m_n_b_l =$('.more_news_btn_left')
 var m_n_b_r=$('.more_news_btn_right')
 var m_n_u=$('.more_news_ul');
@@ -100,8 +114,8 @@ m_n_b_r.on('click',function(e){
     
     more_news_num+=1;
     console.log(more_news_num);
-    m_n_u.animate({marginLeft:more_news_num*-33.3333333+'%'})
-    if(more_news_num==more_news_length-3){
+    m_n_u.stop(false,false).animate({marginLeft:more_news_num*-33.3333333+'%'})
+    if(more_news_num==6){
         m_n_b_r.css({display:'none'});
     }
     
@@ -114,13 +128,14 @@ m_n_b_l.on('click',function(e){
     
     more_news_num-=1;
     console.log(more_news_num);
-    m_n_u.animate({marginLeft:more_news_num*-33.3333333+'%'})
+    m_n_u.stop(true,false).animate({marginLeft:more_news_num*-33.3333333+'%'})
     if(more_news_num==0){
         m_n_b_l.css({display:'none'});
     }
-    if(more_news_num<more_news_length-3){
+    if(more_news_num<6){
         m_n_b_r.css({display:'block'});
     }
+    stop(true,true);
 
 
 });

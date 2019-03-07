@@ -7,7 +7,14 @@
 .news_kind>li:nth-child(2){display:none;}
 .news_kind>li:nth-child(3){display:none;}
 
-.m_story{display:none; width:100%; height:auto;}
+#newsBox>ul:nth-child(1){display:none;}
+#newsBox>ul:nth-child(2){display:none;}
+#newsBox>ul:nth-child(3){display:none;}
+
+
+
+
+.m_story{width:100%; height:auto;}
 .back_btn{position:absolute; top:93px; left:0; width:48px; height:48px; background-color:#fff; text-align:center; cursor: pointer;}
 
 
@@ -23,6 +30,9 @@
 .video_link{position: relative; padding:0 1rem 0 1rem; box-sizing:border-box; margin-top:-1.4px; margin-bottom:50px; width:560px; height:50px; border:0.3rem solid #dd1111;
 font-size:25px; background-color:#dd1111; color:#fff; line-height:30px;}
 .video_link i{position: absolute; right:15px; top:50%; margin-top:-27px;}
+
+.news_ticket_story .video_link{visibility: hidden;}
+.news_media_story .video_link i{color:#fff; font-size:30px; font-style:normal; font-weight:bold; line-height:-7px; border-bottom:2px solid #000; }
 
 .more_news{float:left; width:100%;}
 .more_news_btn_wrap{position: relative; width:100%; }
