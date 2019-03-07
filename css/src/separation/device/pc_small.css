@@ -59,7 +59,7 @@
     .story_content .story_left_top{position:static; padding-right:24px; float:left; width:50%; height:auto; }
     .story_content .story_right_bottom {float:none; padding-top:3rem; width:100%; z-index:-1;}
     .reporter_info{margin:auto; width:50%; top:0; right:0;}
-    .story_content .video_link{width:100%; margin-bottom:0;} 
+    .story_content .video_link{width:100%; margin-bottom:0; margin-top:-18px;} 
     .story_content .story_img{}
     .more_news{display:none;}
     
@@ -72,4 +72,5 @@
 }
 @media screen and (max-width:900px){
     #wrap{display:none;}
+    .memo{display:block;}
 }
