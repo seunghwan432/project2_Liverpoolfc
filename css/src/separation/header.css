@@ -1,0 +1,17 @@
+#headBox{position:relative; float:left; padding-top:2rem; box-sizing:border-box; width:15%; height:790px; min-width:200px; 
+     background-image:linear-gradient(90deg,rgb(100, 12, 12) 0.1% , #DD1111);}
+#main_emblem{margin:auto;  width:120px; height:162px; background-image:url("../../../img/emblem/liverpool_emblem.png"); 
+    background-repeat:no-repeat; background-size:cover;}
+.main_list_btn_wrap{position: absolute; top:242px; left:50%;  margin-left:-75px; width:150px; height:500px;  }
+
+.main_list_btn{width:100%; height:40px;  text-align:center; transition:300ms;}
+.main_list_btn i{cursor:pointer;}
+.main_list_top_btn{display:none;}
+.main_list_top_btn :hover{margin-top:-3px;}
+.main_list_bottom_btn :hover{margin-top:3px;}
+.main_list_wrap{position: relative; width:100%; height:420px; overflow:hidden; }
+.main_list{position: absolute; top:0; width:100%; height:200%;  font-size:20px;   }
+
+.main_list li{width:100%; height:calc(50% / 6);  text-align:center;  color:#fff;  line-height:70px; cursor: pointer; transition:300ms;  }
+.main_list li:hover{font-size:23px;}
+

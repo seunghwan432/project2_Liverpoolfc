@@ -1,10 +1,49 @@
 (function($){
+
+
+    // 사이드 메인메뉴바 
+$('.main_list_top_btn').on('click',function(e){
+    e.preventDefault();
+    $('.main_list').animate({top:0 })
+    $('.main_list_bottom_btn').toggle();
+    $('.main_list_top_btn').toggle();
+
+
+})
+
+$('.main_list_bottom_btn').on('click',function(e){
+    e.preventDefault();
+    $('.main_list').animate({top:-100+'%'})
+    $('.main_list_top_btn').toggle();
+    $('.main_list_bottom_btn').toggle();
+})
+
+
+$('.main_list').children('li').on('click',function(e){
+    e.preventDefault();
+    var index_main_menu=$(this).index();
+    console.log(index_main_menu);
+    $('.title').children('li').eq(index_main_menu).css({display:'block'});
+    $('.title').children('li').eq(index_main_menu).siblings().css({display:'none'});
+
+
+})
+
+
+
+
+
+
+
+
+
+
+
+
     var title=$('.title');
     var news_bc=$('.bc').children('ul').find('li');
    
     var news_kind=$('.news_kind').children('li');
-
-
 
 
 // 뉴스 종류별로 이동
