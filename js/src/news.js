@@ -5,8 +5,7 @@
 $('.main_list_top_btn').on('click',function(e){
     e.preventDefault();
     $('.main_list').animate({top:0 })
-    $('.main_list_bottom_btn').toggle();
-    $('.main_list_top_btn').toggle();
+    
 
 
 })
@@ -14,8 +13,7 @@ $('.main_list_top_btn').on('click',function(e){
 $('.main_list_bottom_btn').on('click',function(e){
     e.preventDefault();
     $('.main_list').animate({top:-100+'%'})
-    $('.main_list_top_btn').toggle();
-    $('.main_list_bottom_btn').toggle();
+    
 })
 
 

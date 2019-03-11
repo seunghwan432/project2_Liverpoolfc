@@ -15,3 +15,4 @@ h2{color:#dd1111; font-size:30px; width:auto; float:left;}
 .foot_info{color:#fff; }
 .black{color:#000; font-weight:bold; content:" ";}
 .shadow{box-shadow:1px 1px 10px #000;}
+a:focus{style:none;  color:#123; border:1px solid #000;}
