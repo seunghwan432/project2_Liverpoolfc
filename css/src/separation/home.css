@@ -1,0 +1,96 @@
+section{float:right; width:calc(100% - 150px); overflow-x:hidden;}
+
+.home{width:100%;  box-sizing:border-box; }
+
+.main_banner_wrap{position: relative; margin-bottom:46px; float:left; width:calc(100% - 300px); height:720px;
+  
+    overflow:hidden; }
+
+.main_banner{position: absolute; top:0; left:0; width:100%; height:100%; 
+    background-size:cover; background-position:center 1%; box-shadow:0px -250px 1000px  inset #000;}
+
+.main_banner_text{position: absolute; top:450px; left:30px; width:90%; left:50%; transform:translateX(-50%);
+    cursor: default;}
+
+.main_banner_slide_wrap{position: absolute; bottom:80px; left:50%; transform:translateX(-50%);  width:90%; height:2px; border-radius:3px; 
+    background-color:rgb(120, 214, 202)}
+.main_banner_slide     {width:0; height:100%; background-color:#dd1111; }
+
+
+.main_banner_1{background-image:url("../../../img/home/banner/2.jpg"); background-repeat:no-repeat; display:block; }
+.main_banner_2{background-image:url("../../../img/home/banner/main_banner2.jpg"); background-repeat:no-repeat;  }
+.main_banner_3{background-image:url("../../../img/home/home_news/3.jpg"); background-repeat:no-repeat;}
+.main_banner_4{background-image:url("../../../img/home/banner/main_banner3.webp"); background-repeat:no-repeat;}
+
+
+
+
+
+.main_banner_list{position: absolute; bottom:20px; left:0; width:100%; height:50px;}
+.main_banner_list_ul{width:100%;}
+.main_banner_list_ul li{float:left; padding-left:30px; box-sizing:border-box; width:calc(100% / 4);}
+
+/* 경기결과,일정 */
+.match_plan{float:left; padding:50px 20px 0 20px; box-sizing:border-box; width:300px; height:720px; 
+    background-color:#ebebeb;
+    text-align:center;}
+
+
+/* 홈화면 뉴스 */
+.home_content_wrap{float:left; width:100%; background-color:#fff; margin-bottom:60px;}
+.home_news{margin:auto; width:995px;  }
+.home_news_title{width:100%;}
+.home_news_wrap{width:100%;}
+
+.home_news_1_wrap{position: relative; float:left; margin-bottom:20px; margin-right:20px;  width:320px; height:388px; background-color:#000;}
+.home_news_2_wrap{position: relative; float:left; margin-bottom:20px; width:655px; height:388px; background-color:#000;}
+.home_news_3_wrap{position: relative; float:left; margin-right:20px;  width:655px; height:388px; background-color:#000;}
+.home_news_4_wrap{position: relative; float:left; width:320px; height:388px; background-color:#000;}
+
+
+.home_news_img{float:left;  overflow:hidden; 
+    background-repeat:no-repeat; background-size:cover; background-position:center; box-shadow:1px -30px 100px 3px inset #000; cursor: pointer;
+    opacity:0.9; }
+
+.home_news_text{position: absolute; top:280px; left:20px;}
+
+
+
+
+.home_news_1{width:320px; height:388px; margin-bottom:20px; margin-right:20px; background-image:url("../../../img/home/home_news/2.jpg");}
+.home_news_2{width:655px; height:388px; margin-bottom:20px; background-image:url("../../../img/home/home_news/1.jpg");}
+.home_news_3{width:655px; height:388px; margin-right:20px; background-image:url("../../../img/home/home_news/3.jpg"); }
+.home_news_4{width:320px; height:388px;  background-image:url("../../../img/home/home_news/4.jpg");  }
+
+
+
+
+
+
+
+
+/* 텍스트 */
+.title{width:80%; margin:auto; font-size:40px;  font-family:'Josefin sans-B'}
+
+.summary{font-size:25px;  }
+
+.score{font-size:20px; }
+
+.vs{margin:auto;  line-height:100px; 
+    color:#dd1111;}
+
+.contest{width:100%;}
+
+.contest img{margin:auto;}
+
+.expand{width:100px; height:100px; }
+
+.category{font-family:'Josefin sans-B'; font-size:15px; 
+    color:#dd1111;}
+
+.home_news_title{font-family:'Josefin sans-B'; font-size:20px;}
+.hidden_news{display:none; }
+
+
+
+  

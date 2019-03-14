@@ -1,0 +1,9 @@
+.main_article{position:fixed; top:0; right:0; padding:3px 40px 3px 40px; box-sizing:border-box; width:500px; height:40px; 
+    background-color:#dd1111;
+    border-bottom-left-radius:40px;
+    z-index:100;}
+.social_box{line-height: 34px; color:#fff;}
+.social_box li{float:left; margin-left:20px;}
+.social_box li:nth-last-child(1){float:right;}
+.social_box li:nth-last-child(1) img{ height:32px;}
+

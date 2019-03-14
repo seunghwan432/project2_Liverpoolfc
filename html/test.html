@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style>
+
+	.clearfix:after{display:block; content:" ";  width:0; height:0; clear:both;}
+	
+	#wrap{width:500px; height:500px; background-color:#823;}
+	#box1{float:left; width:100px; height:100px; background-color:#292; transition:all 300ms ease;}
+	#box2{float:left; width:50px; height:50px; background-color:#852;}
+        
+       
+        
+
+	</style>
+</head>
+<body>
+	<div id="wrap" class="clearfix">
+		<div id="box1" class="clearfix"></div>
+		<div id="box2"></div>
+	
+	
+	
+	</div>
+
+	<script src="../js/base/jquery-3.3.1.min.js"></script>
+    <script src="../js/base/jquery-ui.min.js"></script>
+    <script src="../js/src/test.js"></script>
+
+
+</body>
+</html>

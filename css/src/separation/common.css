@@ -1,0 +1,26 @@
+body{width:100%; height:auto; 
+    color:#fff;
+    font-family:'Josefin Sans', sans-serif;   }
+
+h2{color:#000; font-size:24px;}
+
+.ynwa{font-family:'hi'; text-transform: uppercase; float:right; margin-bottom:20px; width:calc(100% - 150px); color:rgb(185, 176, 176); font-size:40px; text-align:center;}
+
+
+.hidden{display:block; width:0; height:0; overflow:hidden;}
+.box_shadow{box-shadow:1px 1px 6px rgb(0, 0, 0);}
+.left{float:left;}
+.right{float:right;}
+.black{color:rgb(37, 33, 33); font-size:20px; font-family:'Josefin sans-B'}
+.black_s{color:rgb(38,33,33);}
+.pointer{cursor:pointer; font-size:20px;}
+
+
+.clearfix:after, .clearfix::after {display:block; content:" "; width:0; height:0; clear:both;}
+
+
+.underline:after, .underline::after {content:" "; display:block; width:80%; height:2px; margin:auto; 
+    border-bottom:1px solid rgba(0, 0, 0, 0.185);}
+
+
+   

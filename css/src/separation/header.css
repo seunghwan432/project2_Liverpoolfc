@@ -1,0 +1,19 @@
+/* header */
+header{position:fixed; width:150px; height:100vh; 
+    background-color:#dd1111;
+    z-index:200; }
+header button{padding-left:25px; width:100%; height:100%; border:0; 
+    background-color:transparent; color:#fff;
+    font-size:15px; text-align:left; font-family: 'Josefin Sans-B';}
+
+.main_logo_box{padding:30px 25px 0px 25px; box-sizing:border-box; width:100%; height:160px;
+    border-bottom:15px solid #fff;}
+.main_logo_box img{width:100px; height:135px;}
+
+.nav_list{margin-top:100px;}
+.nav_list li{height:49px; transition:all 1000ms ease; }
+.nav_list li :hover{background-color:rgb(134, 59, 59);}
+
+
+
+

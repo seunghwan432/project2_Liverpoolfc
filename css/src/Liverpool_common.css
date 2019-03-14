@@ -1,0 +1,13 @@
+@charset "UTF-8";
+
+@import url("./separation/common.css");
+@import url("./separation/article.css");
+@import url("./separation/header.css");
+@import url("./separation/home.css");
+@import url("./separation/footer.css");
+
+@import url("./separation/device/pc_small.css");
+
+@import url("./font.css")
+
+
