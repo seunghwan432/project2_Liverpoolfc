@@ -9,7 +9,7 @@ section{float:right; width:calc(100% - 150px); overflow-x:hidden;}
 .main_banner{position: absolute; top:0; left:0; width:100%; height:100%; 
     background-size:cover; background-position:center 1%; box-shadow:0px -250px 1000px  inset #000;}
 
-.main_banner_text{position: absolute; top:450px; left:30px; width:90%; left:50%; transform:translateX(-50%);
+.main_banner_text{position: absolute; top:300px; left:30px; width:90%; left:50%; transform:translateX(-50%);
     cursor: default;}
 
 .main_banner_slide_wrap{position: absolute; bottom:80px; left:50%; transform:translateX(-50%);  width:90%; height:2px; border-radius:3px; 
@@ -34,6 +34,11 @@ section{float:right; width:calc(100% - 150px); overflow-x:hidden;}
 .match_plan{float:left; padding:50px 20px 0 20px; box-sizing:border-box; width:300px; height:720px; 
     background-color:#232323;
     text-align:center;}
+
+.match_plan_t{float:left; padding:30px 50px 0 50px;  box-sizing:border-box; margin-bottom:46px; width:100%; 
+    background-color:#232323;
+    text-align:center;
+    display:none; }
 
 
 /* 홈화면 뉴스 */
@@ -73,7 +78,7 @@ section{float:right; width:calc(100% - 150px); overflow-x:hidden;}
 /* 텍스트 */
 .title{width:80%; margin:auto; font-size:40px;  font-family:'Josefin sans-B'}
 
-.summary{font-size:25px;  }
+.summary{font-size:20px;  }
 
 .score{font-size:20px; }
 
