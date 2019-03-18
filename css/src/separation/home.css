@@ -32,15 +32,16 @@ section{float:right; width:calc(100% - 150px); overflow-x:hidden;}
 
 /* 경기결과,일정 */
 .match_plan{float:left; padding:50px 20px 0 20px; box-sizing:border-box; width:300px; height:720px; 
-    background-color:#ebebeb;
+    background-color:#232323;
     text-align:center;}
 
 
 /* 홈화면 뉴스 */
-.home_content_wrap{float:left; width:100%; background-color:#fff; margin-bottom:60px;}
+.home_content_wrap{float:left; width:100%; background-color:#F3F3F3; margin-bottom:60px;}
 .home_news{margin:auto; width:995px;  }
 .home_news_title{width:100%;}
-.home_news_wrap{width:100%;}
+.home_news_wrap{width:100%; background-color:#F3F3F3;  }
+.abc{background-color:#000; }
 
 .home_news_1_wrap{position: relative; float:left; margin-bottom:20px; margin-right:20px;  width:320px; height:388px; background-color:#000;}
 .home_news_2_wrap{position: relative; float:left; margin-bottom:20px; width:655px; height:388px; background-color:#000;}

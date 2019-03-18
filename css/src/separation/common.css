@@ -1,5 +1,5 @@
 body{width:100%; height:auto; 
-    color:#fff;
+    color:#fff; background-color:#F3F3F3;
     font-family:'Josefin Sans', sans-serif;   }
 
 h2{color:#000; font-size:24px;}
@@ -13,6 +13,11 @@ h2{color:#000; font-size:24px;}
 .right{float:right;}
 .black{color:rgb(37, 33, 33); font-size:20px; font-family:'Josefin sans-B'}
 .black_s{color:rgb(38,33,33);}
+
+.white  {color:#fff; font-size:20px; font-family:'Josefin sans-B'}
+.white_s{color:#fff;}
+
+
 .pointer{cursor:pointer; font-size:20px;}
 
 
@@ -20,7 +25,7 @@ h2{color:#000; font-size:24px;}
 
 
 .underline:after, .underline::after {content:" "; display:block; width:80%; height:2px; margin:auto; 
-    border-bottom:1px solid rgba(0, 0, 0, 0.185);}
+    border-bottom:1px solid rgba(212, 19, 19, 0.2);}
 
 
    

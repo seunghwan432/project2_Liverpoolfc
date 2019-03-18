@@ -30,16 +30,16 @@
 // -------------------------------------------
 
 // 메인화면  뉴스 호버시 효과
-$('.home_news_img').mouseover(function(){
-    $(this).css({opacity:0.7});
-    $(this).siblings('.home_news_text').stop(true,false).animate({top:220+'px'});
-    $(this).siblings('.home_news_text').find('.hidden_news').fadeIn();
+$('.abc').mouseover(function(){
+    $(this).find('.home_news_img').css({opacity:0.7});
+    $(this).find('.home_news_text').stop(true,false).animate({top:220+'px'},200);
+    $(this).find('.home_news_text').find('.hidden_news').fadeIn(200);
 });
 
-$('.home_news_img').mouseleave(function(){
-    $(this).css({opacity:0.9});
-    $(this).siblings('.home_news_text').stop(true,false).animate({top:280+'px'});
-    $(this).siblings('.home_news_text').find('.hidden_news').fadeOut();
+$('.abc').mouseleave(function(){
+    $(this).find('.home_news_img').css({opacity:0.9});
+    $(this).find('.home_news_text').stop(true,false).animate({top:280+'px'},100);
+    $(this).find('.home_news_text').find('.hidden_news').fadeOut(100);
 });
 
 
