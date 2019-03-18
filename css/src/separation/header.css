@@ -15,5 +15,22 @@ header button{padding-left:25px; width:100%; height:100%; border:0;
 .nav_list li :hover{background-color:rgb(134, 59, 59);}
 
 
+/* 테블릿,모바일 */
+
+.header_t{position: relative; width:100%; height:60px; background-color:#dd1111;  display:none;}
+.logo_t{position: absolute; left:50%; margin-left:-25px; width:50px; height:67.5px;  }
+.logo_t img{width:100%;}
+
+.left_head {float:left; padding-top:10px; box-sizing:border-box;  width: calc(50% - 50px);  }
+.right_head{float:right; padding-top:10px;  box-sizing:border-box;  width:calc(50% - 50px);  }
+
+.left_head li {width:50%; float:left; text-align:center; transform:scale(0.9);  }
+.right_head li{width:50%; float:left; text-align:center; transform:scale(0.9); }
+
+.header_t img{cursor: pointer;}
+
+
+/* 텍스트 */
+.menu_t{font-size:10px; cursor: pointer;}
 
 

@@ -40,3 +40,14 @@
     .home_news_4{width:555px; height:366.3px; }
 
 }
+/* 헤더 사라짐 */
+@media screen and (max-width:768px){
+    .header_pc{display:none;}
+    .main_article{display:none;}
+    section{ width:100%;}
+    footer{width:100%;}
+    .ynwa{width:100%;}
+
+    .header_t{display:block;}
+
+}

@@ -4,5 +4,5 @@ footer{float:right; width:calc(100% - 150px);  border-top:3px solid #dd1111;
 
 
 
-.sponsor_wrap{margin:auto; padding-top:20px; box-sizing:border-box; width:100%; height:300px;  text-align:center;  }
+.sponsor_wrap{margin:auto; padding-top:20px; box-sizing:border-box; width:100%;   text-align:center;  }
 .sponsor_wrap img:hover{background-color:#fff;}
